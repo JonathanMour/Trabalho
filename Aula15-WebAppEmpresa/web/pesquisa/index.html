@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Html.html to edit this template
+-->
+<html>
+    <head>
+        <title>Empresa - Pesquisa</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="sytles.css" rel="stylesheet" type="text/css"/>
+    </head>
+    <body>
+           <style>
+             body {
+            display: flex;
+            justify-content: center; /* Centraliza horizontalmente */
+            align-items: center; /* Centraliza verticalmente */
+            height: 100vh; /* 100% da altura da tela */
+            margin: 0;
+            background-color: #f0f0f0; /* Cor de fundo */
+            font-family: Arial, sans-serif;
+            
+        }
+
+        /* Estilo para o formulário */
+        form {
+            background-color: #ccc; /* Fundo branco para o formulário */
+            padding: 30px;
+            border-radius: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+            
+        }
+
+        h1 {
+            text-align: center;
+            color: #333333; /* Cor do título */
+        }
+
+        input[type="text"],
+        input[type="email"],
+        input[type="password"] {
+            width: 90%;
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        input[type="submit"] {
+            width: 100%;
+            padding: 10px;
+            background-color: #00FFFF;
+            color: black;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #45a049;
+        }
+        body {
+            background-color: #181a21; /* Cor de fundo preto */
+            margin: 0;
+            height: 100vh; /* Altura completa da página */
+            display: flex;
+            justify-content: center; /* Centraliza horizontalmente */
+            align-items: center; /* Centraliza verticalmente */
+            
+        }
+    </style>
+ 
+    
+        <form name="frmPesq" method="post" action="pesquisa.jsp"> 
+            Nome: <input type="text" name="nome"> <p>
+            E-mail: <input type="email" name="email"> <p> <br>
+                 <h1>Pesquisa de Satisfação</h1> 
+              
+               <img src="../imagem/imagem.png" alt=""/>            <br><br>
+                           
+            1. Como você classifica nosso atendimento? <br>
+            <input type="radio" name="r1" value="1"> 1
+           
+            <br>
+            
+            <input type="radio" name="r1" value="2"> 2<br>
+            <input type="radio" name="r1" value="3"> 3<br>
+            <input type="radio" name="r1" value="4"> 4<br>
+            <input type="radio" name="r1" value="5"> 5<br><br>
+            
+            2. Como você avalia a pontualidade do técnico que lhe atendeu? <br>
+            <input type="radio" name="r2" value="1"> 1<br>
+            <input type="radio" name="r2" value="2"> 2<br>
+            <input type="radio" name="r2" value="3"> 3<br>
+            <input type="radio" name="r2" value="4"> 4<br>
+            <input type="radio" name="r2" value="5"> 5<br><br><!-- comment -->
+            
+            3. Como você avalia o tempo de atendimento?<br>
+            <input type="radio" name="r3" value="1"> 1<br>
+            <input type="radio" name="r3" value="2"> 2<br>
+            <input type="radio" name="r3" value="3"> 3<br>
+            <input type="radio" name="r3" value="4"> 4<br>
+            <input type="radio" name="r3" value="5"> 5<br><br><!-- comment -->
+            
+            4. Você recomendaria nossa empresa para outro cliente?<br>
+            <input type="radio" name="r4" value="1"> 1<br>
+            <input type="radio" name="r4" value="2"> 2<br>
+            <input type="radio" name="r4" value="3"> 3<br>
+            <input type="radio" name="r4" value="4"> 4<br>
+            <input type="radio" name="r4" value="5"> 5<br><br>
+                
+            <input type="submit" value="Enviar">
+            
+              <style>
+    </style>
+        </form>      
+    </body>
+</html>
